@@ -1,0 +1,14 @@
+C:\repos\TodoApiTut\TodoApiTut\TodoApiTut\bin\Debug\netcoreapp2.1\TodoApiTut.deps.json
+C:\repos\TodoApiTut\TodoApiTut\TodoApiTut\bin\Debug\netcoreapp2.1\TodoApiTut.runtimeconfig.json
+C:\repos\TodoApiTut\TodoApiTut\TodoApiTut\bin\Debug\netcoreapp2.1\TodoApiTut.runtimeconfig.dev.json
+C:\repos\TodoApiTut\TodoApiTut\TodoApiTut\bin\Debug\netcoreapp2.1\TodoApiTut.dll
+C:\repos\TodoApiTut\TodoApiTut\TodoApiTut\bin\Debug\netcoreapp2.1\TodoApiTut.pdb
+C:\repos\TodoApiTut\TodoApiTut\TodoApiTut\obj\Debug\netcoreapp2.1\TodoApiTut.csprojAssemblyReference.cache
+C:\repos\TodoApiTut\TodoApiTut\TodoApiTut\obj\Debug\netcoreapp2.1\TodoApiTut.csproj.CoreCompileInputs.cache
+C:\repos\TodoApiTut\TodoApiTut\TodoApiTut\obj\Debug\netcoreapp2.1\TodoApiTut.RazorAssemblyInfo.cache
+C:\repos\TodoApiTut\TodoApiTut\TodoApiTut\obj\Debug\netcoreapp2.1\TodoApiTut.RazorAssemblyInfo.cs
+C:\repos\TodoApiTut\TodoApiTut\TodoApiTut\obj\Debug\netcoreapp2.1\TodoApiTut.AssemblyInfoInputs.cache
+C:\repos\TodoApiTut\TodoApiTut\TodoApiTut\obj\Debug\netcoreapp2.1\TodoApiTut.AssemblyInfo.cs
+C:\repos\TodoApiTut\TodoApiTut\TodoApiTut\obj\Debug\netcoreapp2.1\TodoApiTut.RazorTargetAssemblyInfo.cache
+C:\repos\TodoApiTut\TodoApiTut\TodoApiTut\obj\Debug\netcoreapp2.1\TodoApiTut.dll
+C:\repos\TodoApiTut\TodoApiTut\TodoApiTut\obj\Debug\netcoreapp2.1\TodoApiTut.pdb
