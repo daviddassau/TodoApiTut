@@ -64,14 +64,23 @@ namespace TodoApiTut.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutTodoItem(long id, TodoItem item)
         {
+            // If 'id' (incoming id param) does not equal the 'item' in the DB, 
+              // return a BadRequest/400 status result
             if (id != item.Id)
             {
                 return BadRequest();
             }
 
+            // Gets an EntityEntry for the given entity. The entry provides access to change tracking
+              // info and operations for the entity.
+              // The state in which an entity is being tracked by a context
+              // The entity is being tracked by the context and exists in the DB. Some or all of
+                // its property values have been modified
             _context.Entry(item).State = EntityState.Modified;
+            // Asynchronously saves all changes made in this context to the DB
             await _context.SaveChangesAsync();
 
+            // Creates a 'NoContentResult' object that produces an empty 204 No Content Status response
             return NoContent();
         }
 
@@ -79,16 +88,22 @@ namespace TodoApiTut.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteTodoItem(long id)
         {
+            // Create 'todoItem' variable, which will hold the entity with the given id
             var todoItem = await _context.TodoItems.FindAsync(id);
 
+            // If 'todoItem' is null, return a NotFound/404 status result
             if (todoItem == null)
             {
                 return NotFound();
             }
 
+            // Begins tracking the given entity in the EntityState.Deleted state such that 
+              // it will be removed from the DB when DB.SaveChanges() is called.
             _context.TodoItems.Remove(todoItem);
+            // Asynchronously saves all changes made in this context to the DB
             await _context.SaveChangesAsync();
 
+            // Creates a 'NoContentResult' object that produces an empty 204 No Content Status response
             return NoContent();
         }
     }
