@@ -44,6 +44,8 @@ namespace TodoApiTut
                 app.UseHsts();
             }
 
+            app.UseDefaultFiles(); // Enables default file mapping
+            app.UseStaticFiles(); // Serves static files
             app.UseHttpsRedirection();
             app.UseMvc();
         }
